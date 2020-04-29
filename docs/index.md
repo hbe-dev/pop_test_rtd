@@ -79,8 +79,8 @@
 	* TYPE_AVERAGE : Average data based on sampling count
 	* TYPE_NORMAL : Unaveraged raw data
 	* MODE_FULL : Call Callback function always*
-	* MODE_INCLUSIVE : If data is in arange(max, min), call Callback function *
-	* MODE_EXCLUSIVE : If data is over arange, call Callback function *
+	* MODE_INCLUSIVE : If data is in arange(max, min), call Callback function
+	* MODE_EXCLUSIVE : If data is over arange, call Callback function
 * Functions      
 	* setChipSelect(cs) : Set SPI Chip Select PIN 
 		* Params  
@@ -123,7 +123,7 @@
 	* calcDist(val,calibration=1.1) : Calculate distance value from raw data  
 		* Params  
 			val : ADC Raw Data 
-			calibration : Calibration Value, Default 1.1 *
+			calibration : Calibration Value, Default 1.1
 ## Class CDS  
 * Class Description : Light measurement using CDS sensor
 * Example Use  
@@ -137,7 +137,7 @@
 	* setCalibrationPseudoLx(func) : Set calibration function
 		* Params  
 			func : Calibration function.*    
-	* readAverage() : Read lux data from device and calibration function *    
+	* readAverage() : Read lux data from device and calibration function   
 
 ##  Class Sound  
 * Class Description : Ambient sound measurement using Sound sensor  
@@ -388,20 +388,18 @@
 	* readStr() : return String as Gesture status. "None" , "Left", "Right", "Up", "Down", "Near", "Far" 
 * Inner class Light  
 	* Light() : Light object 
-
-* Functions  
-	* read() : return light value   
+	* Functions  
+		* read() : return light value   
 * Inner class Color  
 	* Color() : Color object  
-* Functions  
-	* readRed() : return Red value  
-	* readGreen() : return Green value  
-	* readBlue() : return Blue value  
+	* Functions  
+		* readRed() : return Red value  
+		* readGreen() : return Green value  
+		* readBlue() : return Blue value  
 * Inner class Proximity  
 	* Proximity() : Proximity object  
-
-* Functions  
-	* read() : return Proximity value  
+	* Functions  
+		* read() : return Proximity value  
 	
 <hr/>
 ##    Class PixelDisplay  
