@@ -52,10 +52,10 @@
 
 ## Class Switch  
 * Class Description : Read the switch status through GPIO  
-* Example Use
-	* Switch(n) : Switch Object inheriting from Input Class
+* Example Use  
+	* Switch(n) : Switch Object inheriting from Input Class  
 		* Params  
-			n : GPIO Number Connected to the Switch    
+			n : GPIO Number Connected to the Switch  
 
 ## Class Switches  
 * Class Description : Read the switch status through GPIO  
@@ -63,6 +63,7 @@
 	* Switches(n) : Switch Object inheriting from Input Class
 		* Params  
 			n : list Number defined board config Connected to the Switch    
+
 <hr/>
 ## Class SpiAdc  
 * Class Description : adc chip control through spi interface  
@@ -174,6 +175,7 @@
 	* getRangeTable() : return range table
 	* readAverage() : return level from range table
 	
+
 <hr/>	
 ##   Class PiezoBuzzer  
 * Class Description  : PiezoBuzzer controlled via Software PWM  
@@ -198,6 +200,7 @@
 		* Params  
 			sheet : list [[scale],[pitch],[duration]] 
 	* isPlay() : return play status  
+
 <hr/>
 ##   Class Oled  
 
@@ -371,6 +374,7 @@
 	* setAutomode(automode) : set automode  
 		* Params  
 			automode : True or False 
+
 <hr/>
 ##    Class Gesture  
 
@@ -399,7 +403,7 @@
 	* read() : return Proximity value  
 	
 <hr/>
-##    PixelDisplay  
+##    Class PixelDisplay  
 * Class Description : Pixel Display controlled via Hardware PWM  
 	* PixelDisplay(width=8, height=8, gpio=-1, type=GRB, dma=10, automode=True, debug=False) : PixelDisplay object
 		* Params  
