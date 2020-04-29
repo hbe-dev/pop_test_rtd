@@ -19,7 +19,7 @@
 			n : GPIO Number Connected to the LED    
 ## Class Leds  
 * Class Description : LEDs are controlled via GPIO
-* Example Use
+* Example Use  
 	* Leds(n) : Leds Object inheriting from Led Class
 		* Params  
 			n : list Number defined board config Connected to the LED  
@@ -32,7 +32,7 @@
 <hr/> 
 ## Class Input  
 * Class Description : Read the Input Device through GPIO  
-* Example Use
+* Example Use  
 	* Input(n,activeHigh=Ture) : Input Object
 		* Params  
 			n : GPIO Number Connected to the Input Device    
