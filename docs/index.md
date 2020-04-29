@@ -1,6 +1,6 @@
 # Pop Library Method Description  
 <hr/>
-## Class Out  
+### Class Out  
 * Class Description : Output device controlled throught GPIO.  
 * Examples Use  
 	* Out(n) : Out Object  
