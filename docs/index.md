@@ -28,6 +28,7 @@
 		: Set all GPIO Connected to Output Device to HIGH
 	* allOff()  
 		: Set all GPIO Connected to Output Device to LOW
+
 <hr/> 
 ## Class Input  
 * Class Description : Read the Input Device through GPIO  
