@@ -428,7 +428,9 @@
 		* Params  
 			automode : True or False  
 	* rainbow() : display rainbow color on Pixel Display  
-	* setBrightness() : set Brightness  
+	* setBrightness(brightness) : set Brightness  
+		* Params  
+			brightness : brightness (0~255)  
 	* display() : send command from buffer. when Automode False use  
 	* getRGBType() : getRGBType  
 	* RGBtoHEX(color_arr) : convert RGB list data to HEX
