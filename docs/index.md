@@ -388,17 +388,17 @@
 	* readStr() : return String as Gesture status. "None" , "Left", "Right", "Up", "Down", "Near", "Far" 
 * Inner class Light  
 	* Light() : Light object 
-	* Functions  
+    * Functions  
 		* read() : return light value   
 * Inner class Color  
 	* Color() : Color object  
-	* Functions  
+    * Functions  
 		* readRed() : return Red value  
 		* readGreen() : return Green value  
 		* readBlue() : return Blue value  
 * Inner class Proximity  
 	* Proximity() : Proximity object  
-	* Functions  
+    * Functions  
 		* read() : return Proximity value  
 	
 <hr/>
